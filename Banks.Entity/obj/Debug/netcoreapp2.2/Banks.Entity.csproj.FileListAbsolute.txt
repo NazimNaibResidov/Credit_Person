@@ -1,0 +1,8 @@
+C:\Users\resid\source\repos\Banks\Banks.Entity\bin\Debug\netcoreapp2.2\Banks.Entity.deps.json
+C:\Users\resid\source\repos\Banks\Banks.Entity\bin\Debug\netcoreapp2.2\Banks.Entity.dll
+C:\Users\resid\source\repos\Banks\Banks.Entity\bin\Debug\netcoreapp2.2\Banks.Entity.pdb
+C:\Users\resid\source\repos\Banks\Banks.Entity\obj\Debug\netcoreapp2.2\Banks.Entity.csprojAssemblyReference.cache
+C:\Users\resid\source\repos\Banks\Banks.Entity\obj\Debug\netcoreapp2.2\Banks.Entity.AssemblyInfoInputs.cache
+C:\Users\resid\source\repos\Banks\Banks.Entity\obj\Debug\netcoreapp2.2\Banks.Entity.AssemblyInfo.cs
+C:\Users\resid\source\repos\Banks\Banks.Entity\obj\Debug\netcoreapp2.2\Banks.Entity.dll
+C:\Users\resid\source\repos\Banks\Banks.Entity\obj\Debug\netcoreapp2.2\Banks.Entity.pdb
