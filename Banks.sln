@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banks.WebUI", "Banks.WebUI\Banks.WebUI.csproj", "{B0828169-4A92-41DB-914F-581396E97A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banks.Entity", "Banks.Entity\Banks.Entity.csproj", "{4B69D506-CFD7-4AB7-8D54-F6A1981BFCE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banks.Entity", "Banks.Entity\Banks.Entity.csproj", "{4B69D506-CFD7-4AB7-8D54-F6A1981BFCE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banks.Data", "Banks.Data\Banks.Data.csproj", "{9A45135D-B954-4422-A7BB-4C1B4F28C7E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banks.Data", "Banks.Data\Banks.Data.csproj", "{9A45135D-B954-4422-A7BB-4C1B4F28C7E4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Banks.ApiUI", "Banks.ApiUI\Banks.ApiUI.csproj", "{429E7A22-9C6F-4480-8B65-8824A71D2C40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banks.ApiUI", "Banks.ApiUI\Banks.ApiUI.csproj", "{429E7A22-9C6F-4480-8B65-8824A71D2C40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0828169-4A92-41DB-914F-581396E97A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0828169-4A92-41DB-914F-581396E97A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0828169-4A92-41DB-914F-581396E97A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0828169-4A92-41DB-914F-581396E97A81}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4B69D506-CFD7-4AB7-8D54-F6A1981BFCE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4B69D506-CFD7-4AB7-8D54-F6A1981BFCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B69D506-CFD7-4AB7-8D54-F6A1981BFCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
