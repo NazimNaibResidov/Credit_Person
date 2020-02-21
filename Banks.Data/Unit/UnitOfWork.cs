@@ -8,6 +8,7 @@ using System.Text;
 
 namespace Banks.Data.Unit
 {
+    using Banks.Data.Concreate.EfCore;
     using Concreate;
     public class UnitOfWork : IUnitOfWork
     {
@@ -20,7 +21,7 @@ namespace Banks.Data.Unit
         public UnitOfWork(BankDbContext _bankDbContext)
         {
             
-            context = _bankDbContext?? throw new ArgumentNullException("this is not true connection string ");
+            context = _bankDbContext?? throw new NullReferenceException("this is not true connection string ");
         }
         public IPeopleResptory peopleResptory {
             get
@@ -34,7 +35,8 @@ namespace Banks.Data.Unit
        
         public void Dispose()
         {
-             Dispose(true);
+            
+            Dispose(true);
             GC.SuppressFinalize(this);
             
         }

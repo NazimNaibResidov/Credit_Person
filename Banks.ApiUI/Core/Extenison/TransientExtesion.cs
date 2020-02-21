@@ -1,5 +1,5 @@
 ﻿using Banks.Data.Abstrac;
-using Banks.Data.Concreate;
+using Banks.Data.Concreate.EfCore;
 using Banks.Data.Unit;
 using Microsoft.Extensions.DependencyInjection;
 
